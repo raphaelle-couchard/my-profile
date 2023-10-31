@@ -1,0 +1,140 @@
+:root {
+  --background-color: #F7F9FC;
+  --text-color: #582900;
+  --font-family-body: 'Arial', sans-serif;
+  --font-family-heading: 'Helvetica', sans-serif;
+  --font-size-body: 16px;
+  --font-size-heading: 36px;
+  --font-weight-heading: 800;
+  --heading-color: #008000;
+  --link-color: #6B72E1;
+  --link-hover-color: black;
+  --font-family-roboto: 'Roboto', sans-serif;
+  --card-background-color: white; /* Ajout de la variable pour la couleur d'arrière-plan de la carte */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-body);
+  font-weight: lighter;
+}
+
+h1 {
+  color: var(--heading-color);
+  font-size: var(--font-size-heading);
+  font-weight: var(--font-weight-heading);
+}
+
+h2 {
+  color: darkorange;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+p {
+
+  font-weight: 500;
+}
+
+.container {
+  width: 600px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+
+
+  .container {
+
+    width: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+
+
+  .container {
+
+    width: 400px;
+  }
+}
+
+
+.card-white {
+  background-color: var(--card-background-color);
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-blue:hover {
+
+  background-color: black;
+  color: white;
+}
+.list-inline {
+
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+
+
+.list-inline i:hover {
+  color: black;
+}
+
+#introduction p {
+
+  margin-bottom: 40px;
+
+
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+  transition: transform 0.3s ease;
+}
+
+.list-inline i:hover {
+  transform: scale(1.2);
+  color: black;
+}
